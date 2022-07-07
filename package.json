@@ -1,0 +1,34 @@
+{
+  "name": "plasticine",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "patch-package"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.0.1",
+    "@codemirror/view": "^6.0.2",
+    "@solid-primitives/storage": "^1.3.1",
+    "fals": "^1.0.0",
+    "global": "^4.4.0",
+    "lorem-ipsum": "^2.0.8",
+    "patch-package": "^6.4.7",
+    "simplified-jsx-to-json": "^0.2.0",
+    "solid-codemirror": "^1.1.0",
+    "solid-js": "^1.4.5",
+    "twind": "^0.16.17",
+    "yaml": "^2.1.1"
+  }
+}
